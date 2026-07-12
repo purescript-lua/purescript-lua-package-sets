@@ -51,7 +51,7 @@ FFI in place of the JavaScript one. The package name is the key in
 | integers | https://github.com/purescript-lua/purescript-lua-integers | v6.1.2 |
 | lazy | https://github.com/purescript-lua/purescript-lua-lazy | v7.0.0 |
 | lua-ngx | https://github.com/purescript-lua/purescript-lua-ngx | v0.2.0 |
-| numbers | https://github.com/purescript-lua/purescript-lua-numbers | v9.1.3 |
+| numbers | https://github.com/purescript-lua/purescript-lua-numbers | v9.1.4 |
 | partial | https://github.com/purescript-lua/purescript-lua-partial | v4.1.0 |
 | prelude | https://github.com/purescript-lua/purescript-lua-prelude | v7.3.0 |
 | refs | https://github.com/purescript-lua/purescript-lua-refs | v6.1.0 |

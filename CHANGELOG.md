@@ -12,6 +12,15 @@ of its own.
 
 <!-- scriv-insert-here -->
 
+<a id='changelog-psc-0.15.15-20260712'></a>
+## psc-0.15.15-20260712 - 2026-07-12
+
+### Changed
+
+- numbers v9.1.4: `Data.Number.isNaN` links (the FFI key was spelled `isNan`)
+  and detects NaN via IEEE self-inequality instead of comparing `tostring`
+  spellings (purescript-lua/purescript-lua-numbers#8).
+
 ## psc-0.15.15-20260624 - 2026-06-24
 
 ### Changed
@@ -90,14 +99,14 @@ of its own.
 - prelude v7.2.0 restored, bringing back `unit = {}` so `Array Unit` no longer
   collapses to an empty table ([ADR 0004][adr0004]).
 
+<!-- scriv-end-here -->
+
 ## Earlier
 
 Set releases before the 2026 FFI campaign (the `psc-0.15.8-*` and
 `psc-0.15.15-2024*` series, 2023–2024) tracked upstream package-set updates and
 the initial Lua forks. They predate this changelog and are recorded only as
 `psc-*` tags.
-
-<!-- scriv-end-here -->
 
 [keepachangelog]: https://keepachangelog.com/en/1.1.0/
 [scriv]: https://scriv.readthedocs.io/

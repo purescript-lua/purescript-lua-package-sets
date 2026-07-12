@@ -129,7 +129,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript-lua/purescript-lua-numbers.git",
-    "version": "v9.1.3"
+    "version": "v9.1.4"
   },
   "partial": {
     "dependencies": [],
