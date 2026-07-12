@@ -12,6 +12,15 @@ of its own.
 
 <!-- scriv-insert-here -->
 
+<a id='changelog-psc-0.15.15-20260712-2'></a>
+## psc-0.15.15-20260712-2 - 2026-07-12
+
+### Changed
+
+- prelude v7.3.1: `Data.Unit.unit` is pinned to the shared foreign singleton
+  (`@inline unit never`) so the table constructor is not duplicated per use
+  site (purescript-lua/purescript-lua#176).
+
 <a id='changelog-psc-0.15.15-20260712'></a>
 ## psc-0.15.15-20260712 - 2026-07-12
 

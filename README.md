@@ -53,7 +53,7 @@ FFI in place of the JavaScript one. The package name is the key in
 | lua-ngx | https://github.com/purescript-lua/purescript-lua-ngx | v0.2.0 |
 | numbers | https://github.com/purescript-lua/purescript-lua-numbers | v9.1.4 |
 | partial | https://github.com/purescript-lua/purescript-lua-partial | v4.1.0 |
-| prelude | https://github.com/purescript-lua/purescript-lua-prelude | v7.3.0 |
+| prelude | https://github.com/purescript-lua/purescript-lua-prelude | v7.3.1 |
 | refs | https://github.com/purescript-lua/purescript-lua-refs | v6.1.0 |
 | safe-coerce | https://github.com/purescript-lua/purescript-lua-safe-coerce | v2.0.1 |
 | st | https://github.com/purescript-lua/purescript-lua-st | v6.4.0 |
