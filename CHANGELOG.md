@@ -12,6 +12,25 @@ of its own.
 
 <!-- scriv-insert-here -->
 
+<a id='changelog-psc-0.15.15-20260713'></a>
+## psc-0.15.15-20260713 - 2026-07-13
+
+### Changed
+
+- arrays v7.4.2: `Data.Array.ST` FFI restored to the STFn convention —
+  `thaw`, `freeze`, `withArray`, `toAssocArray` no longer crash on a nil
+  foreign, and `peek` returns the `Maybe` instead of a thunk
+  (purescript-lua/purescript-lua#186).
+- numbers v9.1.5: `fromStringImpl` is 4-ary as its `Fn4` declaration
+  requires, so `Data.Number.fromString` returns a `Maybe Number` instead of
+  a closure (purescript-lua/purescript-lua#186).
+- integers v6.1.3: `toStringAs` accumulates digits by appending and
+  reverses once, replacing the quadratic front-insertion
+  (purescript-lua/purescript-lua#186).
+- lua-ngx v0.3.0: `say` and `Http.Status.set` are backed by `EffectFn1`
+  foreigns, so saturated call sites compile to a single direct Lua call
+  (purescript-lua/purescript-lua#186).
+
 <a id='changelog-psc-0.15.15-20260712-2'></a>
 ## psc-0.15.15-20260712-2 - 2026-07-12
 
