@@ -12,6 +12,16 @@ of its own.
 
 <!-- scriv-insert-here -->
 
+<a id='changelog-psc-0.15.15-20260714'></a>
+## psc-0.15.15-20260714 - 2026-07-14
+
+### Changed
+
+- arrays v7.4.3: `Data.Array.ST` exports `clone` again. Upstream v7.3.0
+  declares `clone`/`cloneImpl` (`STFn1`), but the fork carried neither, so
+  code using `Data.Array.ST.clone` failed to compile against the fork
+  (purescript-lua/purescript-lua#267).
+
 <a id='changelog-psc-0.15.15-20260713'></a>
 ## psc-0.15.15-20260713 - 2026-07-13
 

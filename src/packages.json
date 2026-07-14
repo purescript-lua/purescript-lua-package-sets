@@ -11,7 +11,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-lua/purescript-lua-arrays.git",
-    "version": "v7.4.2"
+    "version": "v7.4.3"
   },
   "assert": {
     "dependencies": [
