@@ -28,7 +28,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript-lua/purescript-lua-console.git",
-    "version": "v6.1.1"
+    "version": "v6.1.2"
   },
   "control": {
     "dependencies": [
@@ -69,7 +69,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript-lua/purescript-lua-exceptions.git",
-    "version": "v6.1.1"
+    "version": "v6.1.2"
   },
   "foldable-traversable": {
     "dependencies": [

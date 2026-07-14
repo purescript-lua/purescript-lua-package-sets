@@ -12,6 +12,21 @@ of its own.
 
 <!-- scriv-insert-here -->
 
+<a id='changelog-psc-0.15.15-20260714-2'></a>
+## psc-0.15.15-20260714-2 - 2026-07-14
+
+### Added
+
+- console v6.1.2: `Effect.Console` exports `group`, `groupCollapsed`,
+  `groupEnd`, and `grouped` (with `MonadEffect` counterparts in
+  `Effect.Class.Console`) — upstream purescript-console v6.1.0 parity
+  (purescript-lua/purescript-lua#268).
+
+- exceptions v6.1.2: `Effect.Exception` exports `errorWithName` — upstream
+  purescript-exceptions v6.1.0 parity. The name is unobservable through this
+  binding, the same precedent as `errorWithCause`'s dropped cause
+  (purescript-lua/purescript-lua#269).
+
 <a id='changelog-psc-0.15.15-20260714'></a>
 ## psc-0.15.15-20260714 - 2026-07-14
 
